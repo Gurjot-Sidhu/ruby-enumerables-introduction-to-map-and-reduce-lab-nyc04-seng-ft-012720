@@ -70,4 +70,5 @@ def reduce_to_any_true(source_array)
     end
     i+=1
   end 
+  return all
 end
