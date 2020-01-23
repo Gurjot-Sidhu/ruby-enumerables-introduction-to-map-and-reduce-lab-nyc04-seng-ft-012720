@@ -50,6 +50,7 @@ def reduce_to_total(source_array,starting_point =0 )
 end
 
 def reduce_to_all_true(source_array)
+  all = true
   i = 0 
   while i < source_array.length do
     if source_array[i] = false 
@@ -57,7 +58,7 @@ def reduce_to_all_true(source_array)
     end
     i+=1
   end   
-  return true
+  return all
 end
 
 def reduce_to_any_true(source_array)
